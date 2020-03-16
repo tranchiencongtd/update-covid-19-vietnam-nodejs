@@ -1,0 +1,106 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #023059;
+  --second-color: #555D8F;
+  --main-font: 'Baloo', cursive;
+  --second-font: 'Baloo Chettan 2', cursive;
+}
+
+body {
+  background-color: var(--main-color);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  opacity: .9;
+}
+
+h1 {
+  font-family: var(--second-font);
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: var(--second-font);
+  /* font-weight: lighter; */
+  font-style: 30px;
+}
+
+#title {
+  font-size: 50px;
+  padding-bottom: 10px;
+  font-family: var(--main-font);
+}
+
+.container {
+  padding: 0 50px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+.global,
+.vietnam {
+  flex: 1;
+  border: #fff 2px solid;
+  padding: 20px 50px 50px 50px;
+}
+
+.global {
+  margin-right: 10px;
+}
+
+.global:hover,
+.vietnam:hover {
+  /* background: var(--second-color); */
+  transition: all .5s ease-in-out;
+  color: #C90610;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Conatact */
+footer {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact {
+  animation: xuat_hien_nao 1s forwards ease 1.9s;
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.contact a {
+  color: #fff;
+  font-size: 30px;
+  transition: color 0.5s ease-in;
+  margin-right: 5px;
+}
+
+.contact a:nth-child(1):hover {
+  color: chocolate;
+}
+
+.contact a:nth-child(2):hover {
+  color: rgba(24, 21, 21);
+}
+.contact a:nth-child(3):hover {
+  color: rgb(63, 34, 180);
+}
+
