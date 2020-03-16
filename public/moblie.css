@@ -1,0 +1,30 @@
+.container {
+  flex-direction: column;
+}
+
+body {
+  height: 80%;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.global {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+#title {
+  font-size: 35px;
+  padding-top: 25px;
+}
+

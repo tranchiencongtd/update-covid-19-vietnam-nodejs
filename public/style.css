@@ -21,6 +21,7 @@ body {
   height: 100vh;
   flex-direction: column;
   opacity: .9;
+  padding: 20px;
 }
 
 h1 {
